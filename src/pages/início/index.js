@@ -1,6 +1,17 @@
 import React, { Component } from 'react'
 
-import './início.css';
+
+// Styles
+import './início.scss';
+
+// Componentes
+import Carousel from './carousel/index';
+import Metologia from './metologia/index';
+import Card from './cards/index';
+import Contador from './contador/index';
+import Footer from '../../components/footer/index';
+
+
 
 export default  class Início extends Component {
     render() {
@@ -13,23 +24,16 @@ export default  class Início extends Component {
 
 
                 <div className="carousel-container">
-                    <h1>carousel</h1>
-                </div>
+                    <Carousel />
+                </div>                      
 
+                    <Metologia />
+                
+                    <Card />
+                
+                    <Contador />
 
-                <div className="metodologia-container">
-                    <h1>metodologia</h1>
-                </div>
-
-
-                <div className="card-container">
-                    <h1>Cards</h1>
-                </div>
-
-
-                <div className="diario-container">
-                    <h1>Diario</h1>
-                </div>
+                    <Footer />
 
 
             </div>
