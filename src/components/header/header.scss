@@ -50,27 +50,36 @@
     visibility: hidden;
 }
 
- .list:hover .drop {
+
+
+ .list-colegio:hover .drop-colegio {
     visibility: visible;
     
 }
 
+.list-serviços:hover .drop-serviços {
+    visibility: visible;
+}
 
 
 
-
-
-
-
-
-.header-content a {
-    
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    
-
-    
+.drop-metologia {
+    margin-left: 25px;
+}
+.drop-estrutura {
+    margin-left: 25px;
+}
+.drop-fundação {
+    margin-left: 25px;
+}
+.drop-esportes {
+    margin-left: 25px;
+}
+.drop-dança {
+    margin-left: 25px;
+}
+.drop-ballet {
+    margin-left: 25px;
 }
 
 

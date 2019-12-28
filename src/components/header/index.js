@@ -33,12 +33,12 @@ export default class Header extends Component {
                         <nav className="main-nav">
                             <ul className="ul-nav">
 
-                                <li className="list"><a  className="btn"><AwesomeButton type="primary" size="medium" >Colégio</AwesomeButton></a>
+                                <li className="list-colegio"><a  className="btn"><AwesomeButton type="primary" size="medium" >Colégio</AwesomeButton></a>
 
-                                        <ul className="drop">
-                                            <li><Link to="/metologia"><AwesomeButton type="primary" size="small">Metologia</AwesomeButton></Link></li>
-                                            <li><Link to="/estrutura"><AwesomeButton type="primary" size="small">Estrutura</AwesomeButton></Link></li>
-                                            <li><Link to="/fundação"><AwesomeButton type="primary" size="small">Fundação</AwesomeButton></Link></li>
+                                        <ul className="drop-colegio">
+                                            <li><Link to="/metologia" className="drop-metologia"><AwesomeButton type="primary" size="small">Metologia</AwesomeButton></Link></li>
+                                            <li><Link to="/estrutura" className="drop-estrutura"><AwesomeButton type="primary" size="small">Estrutura</AwesomeButton></Link></li>
+                                            <li><Link to="/fundação" className="drop-fundação"><AwesomeButton type="primary" size="small">Fundação</AwesomeButton></Link></li>
                                         </ul>
 
                                 </li>
@@ -50,12 +50,12 @@ export default class Header extends Component {
                                 </li>
 
 
-                                <li><Link to="serviços" ></Link><AwesomeButton type="primary" size="medium" >Serviços</AwesomeButton>
+                                <li className="list-serviços"><Link to="serviços" ></Link><AwesomeButton type="primary" size="medium" >Serviços</AwesomeButton>
                                 
-                                    <ul>
-                                        <li><Link to="esportes"></Link><AwesomeButton type="primary" size="small">Esportes</AwesomeButton></li>
-                                        <li><Link to="dança"></Link><AwesomeButton type="primary" size="small">Dança</AwesomeButton></li>
-                                        <li><Link to="ballet"></Link><AwesomeButton type="primary" size="small">Ballet</AwesomeButton></li>
+                                    <ul className="drop-serviços">
+                                        <li><Link to="esportes" className="drop-esportes"></Link><AwesomeButton type="primary" size="small">Esportes</AwesomeButton></li>
+                                        <li><Link to="dança" className="drop-dança"></Link><AwesomeButton type="primary" size="small">Dança</AwesomeButton></li>
+                                        <li><Link to="ballet" className="drop-ballet" ></Link><AwesomeButton type="primary" size="small">Ballet</AwesomeButton></li>
                                     </ul>
                                 
                                 
