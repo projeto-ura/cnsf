@@ -20,13 +20,13 @@ import logo from '../../img/logotipo.png'
 export default class Header extends Component {
     render() {
         return (
-            <HashRouter basename="/">
+            
                 <header className="main-header">
 
                     <div className="header-content">
 
                         <div className="header-logo">
-                            <Link to="/" className="a-logo"><img src={logo} className="img-logo" alt=""></img></Link>
+                            <Link to="/cnsf" className="a-logo"><img src={logo} className="img-logo" alt=""></img></Link>
                         </div>
 
 
@@ -36,26 +36,26 @@ export default class Header extends Component {
                                 <li className="list"><a  className="btn"><AwesomeButton type="primary" size="medium" >Colégio</AwesomeButton></a>
 
                                         <ul className="drop">
-                                            <li><Link to="/Metologia"><AwesomeButton type="primary" size="small">Metologia</AwesomeButton></Link></li>
-                                            <li><a href="#"><AwesomeButton type="primary" size="small">Estrutura</AwesomeButton></a></li>
-                                            <li><a href="#"><AwesomeButton type="primary" size="small">Fundação</AwesomeButton></a></li>
+                                            <li><Link to="/metologia"><AwesomeButton type="primary" size="small">Metologia</AwesomeButton></Link></li>
+                                            <li><Link to="/estrutura"><AwesomeButton type="primary" size="small">Estrutura</AwesomeButton></Link></li>
+                                            <li><Link to="/fundação"><AwesomeButton type="primary" size="small">Fundação</AwesomeButton></Link></li>
                                         </ul>
 
                                 </li>
 
 
-                                <li><a href="/" ><AwesomeButton type="primary" size="medium" >Notíciais</AwesomeButton></a>
+                                <li><Link to="noticias" ><AwesomeButton type="primary" size="medium" >Notíciais</AwesomeButton></Link>
                                 
 
                                 </li>
 
 
-                                <li><a href="/" ><AwesomeButton type="primary" size="medium" >Serviços</AwesomeButton></a>
+                                <li><Link to="serviços" ></Link><AwesomeButton type="primary" size="medium" >Serviços</AwesomeButton>
                                 
                                     <ul>
-                                        <li><a href="#"><AwesomeButton type="primary" size="small">Esportes</AwesomeButton></a></li>
-                                        <li><a href="#"><AwesomeButton type="primary" size="small">Dança</AwesomeButton></a></li>
-                                        <li><a href="#"><AwesomeButton type="primary" size="small">Ballet</AwesomeButton></a></li>
+                                        <li><Link to="esportes"></Link><AwesomeButton type="primary" size="small">Esportes</AwesomeButton></li>
+                                        <li><Link to="dança"></Link><AwesomeButton type="primary" size="small">Dança</AwesomeButton></li>
+                                        <li><Link to="ballet"></Link><AwesomeButton type="primary" size="small">Ballet</AwesomeButton></li>
                                     </ul>
                                 
                                 
@@ -63,13 +63,13 @@ export default class Header extends Component {
 
 
 
-                                <li><a href="/" ><AwesomeButton type="primary" size="medium" >Pastoral</AwesomeButton></a></li>
+                                <li><Link to="pastoral"><AwesomeButton type="primary" size="medium" >Pastoral</AwesomeButton></Link></li>
 
 
-                                <li><a href="/" ><AwesomeButton type="primary" size="medium" >Galeria</AwesomeButton></a></li>
+                                <li><Link to="galeria"><AwesomeButton type="primary" size="medium" >Galeria</AwesomeButton></Link></li>
 
 
-                                <li><a href="/" ><AwesomeButton type="primary" size="medium" >Contato</AwesomeButton></a></li>
+                                <li><Link to="contato"><AwesomeButton type="primary" size="medium" >Contato</AwesomeButton></Link></li>
 
 
                             </ul>
@@ -80,7 +80,7 @@ export default class Header extends Component {
 
                     
                 </header>
-            </HashRouter>      
+                
         )
     }
 }

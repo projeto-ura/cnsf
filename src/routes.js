@@ -7,12 +7,13 @@ import Notíciais from './pages/Notíciais/index.js';
 import Contato from './pages/Contato/index';
 import Serviços from './pages/Serviços/index'
 
+
 function Routes() {
     return(
         <Switch>
             <Route path="/cnsf" exact component={Início} />
             <Route path="/colégio" component={Colégio} />
-            <Route path="/notíciais" component={Notíciais} />
+            <Route path="/noticias" component={Notíciais} />
             <Route path="/contato" component={Contato} />
             <Route path="/serviços" component={Serviços} />
         </Switch>
