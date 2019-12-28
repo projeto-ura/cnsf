@@ -17,6 +17,7 @@ export default class Footer extends Component {
                 <div className="footer-text">
 
                     <p className="footer-para">© 2019 - 2020 - Colégio de Nossa Senhora de Fátima - Todos os Direitos Reservados.</p>
+                    <p className="footer-para"> Av. Rodrigues Alves, 646 - Tirol, Natal - RN, 59020-200 - Fone: (84) 3222-2961</p>
 
                     <h1 className="footer-title">Siga nossas redes sociais</h1>
 

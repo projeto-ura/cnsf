@@ -10,6 +10,7 @@ import Metologia from './metologia/index';
 import Card from './cards/index';
 import Contador from './contador/index';
 import Footer from '../../components/footer/index';
+import Banner from './banner/index';
 
 
 
@@ -18,14 +19,10 @@ export default  class Início extends Component {
         return (
             <div className="início-container">
 
-                <div className="banner-container">
-
-                </div>
+                    <Banner />
 
 
-                <div className="carousel-container">
-                    <Carousel />
-                </div>                      
+                                         
 
                     <Metologia />
                 
