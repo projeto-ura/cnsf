@@ -80,3 +80,11 @@ img {
     text-align: center;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 870px) { 
+    .card-content {
+        flex-direction: column;
+
+        height: 1200px;
+    }
+}

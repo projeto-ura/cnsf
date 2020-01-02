@@ -26,8 +26,8 @@ export default class Banner extends Component {
                         <p className="text-banner">Uma educação para a inovação!</p>
                     </div>
 
-                    <div className="banner-image">
-                        <img src={Logo} className="image-banner"></img>
+                    <div className="banner-imageee">
+                        <img src={Logo} className="image-banneeer"></img>
                     </div>
                     
 

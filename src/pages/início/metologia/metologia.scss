@@ -1,5 +1,5 @@
 .container-content {
-    height: 680px;
+    height: 765px;
     width: 100%;
     background: white;
 
@@ -16,6 +16,8 @@
     height: 265px;
     
     background: #ffffff;
+
+    border-radius: 7px;
 }
 
 .title-content {
@@ -51,6 +53,7 @@
 
 
 .container-image {
+    margin-top: 85px;
     width: 450px;
     height: 450px;
     
@@ -60,4 +63,30 @@
 .image-content {
     width: 450px;
     height: 450px;
+}
+
+@media only screen and (max-width: 870px) {
+    .container-content {
+        flex-direction: column;
+    }
+
+    .container-text {
+        
+
+        margin-top: 50px;
+
+        width: 68%;
+        height: 500px;
+    }
+
+    .image-content {
+        width: 150px;
+        height: 250px;
+
+        display: none;
+    }
+
+    .container-image {
+        display: none;
+    }
 }
