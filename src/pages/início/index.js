@@ -11,6 +11,8 @@ import Card from './cards/index';
 import Contador from './contador/index';
 import Footer from '../../components/footer/index';
 import Banner from './banner/index';
+import Contato_Home from './contato/index';
+
 
 
 
@@ -21,14 +23,15 @@ export default  class Início extends Component {
 
                     <Banner />
 
-
-                                         
-
                     <Metologia />
-                
+
                     <Card />
+
+                    <Carousel />
                 
                     <Contador />
+
+                    <Contato_Home />
 
                     <Footer />
 
